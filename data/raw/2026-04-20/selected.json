@@ -1,0 +1,550 @@
+[
+  {
+    "title": "Anthropic 推出最新旗舰大模型 Claude Opus 4.7",
+    "url": "https://mp.weixin.qq.com/s/9m9S9Y9q9Fx4gscqizVDmg",
+    "source": "ai-bot-daily-news",
+    "sources": [
+      "ai-bot-daily-news",
+      "ai-bot-tools"
+    ],
+    "published_at": "2026-04-20",
+    "language": "zh",
+    "summary": "Claude Opus 4.7 – Anthropic 推出的最新旗舰大模型",
+    "source_count": 2,
+    "id": "3c84e47621d5",
+    "category": "major-release"
+  },
+  {
+    "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+    "url": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+    "source": "deepmind-blog",
+    "sources": [
+      "deepmind-blog",
+      "google-ai-blog"
+    ],
+    "published_at": "2026-04-15T16:03:19+00:00",
+    "language": "en",
+    "summary": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation.",
+    "source_count": 2,
+    "id": "ecb69081b361",
+    "category": "major-release"
+  },
+  {
+    "title": "Introducing Claude Design by Anthropic Labs",
+    "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+    "source": "anthropic-news",
+    "sources": [
+      "anthropic-news"
+    ],
+    "published_at": "2026-04-17",
+    "language": "en",
+    "summary": "Anthropic Labs launched Claude Design, a new product that lets users collaborate with Claude to create polished visual work including designs, prototypes, slides, and one-pagers. This marks Anthropic's expansion into visual design tools beyond text-based AI.",
+    "source_count": 1,
+    "id": "6d189920be68",
+    "category": "major-release"
+  },
+  {
+    "title": "阿里通义开源Qwen3.6-35B-A3B，智能体编程“小钢炮”",
+    "url": "https://mp.weixin.qq.com/s/UUTAywz1Nmtv0zl9p0DA4Q",
+    "source": "ai-bot-daily-news",
+    "sources": [
+      "ai-bot-daily-news"
+    ],
+    "published_at": "2026-04-20",
+    "language": "zh",
+    "summary": "阿里通义开源Qwen3.6-35B-A3B，智能体编程“小钢炮”",
+    "source_count": 1,
+    "id": "2665d85af60f",
+    "category": "major-release"
+  },
+  {
+    "title": "Microsoft launches three foundation AI models",
+    "url": "https://blogs.microsoft.com/ai/",
+    "source": "microsoft-ai",
+    "sources": [
+      "microsoft-ai"
+    ],
+    "published_at": "2026-04-03",
+    "language": "en",
+    "summary": "Microsoft announced three new foundation AI models optimized for different scenarios, providing developers with more powerful generative tools. The company also plans to complete its frontier large model development in-house by 2027, signaling increased independence from OpenAI.",
+    "source_count": 1,
+    "id": "bdd6716de8df",
+    "category": "major-release"
+  },
+  {
+    "title": "V4 发布前夜，DeepSeek 被曝寻求至少 3 亿美元融资",
+    "url": "https://view.inews.qq.com/a/20260418A02YCG00?scene=news-skill",
+    "source": "钛媒体APP",
+    "sources": [
+      "钛媒体APP"
+    ],
+    "published_at": "2026-04-18 10:36:18",
+    "language": "zh",
+    "summary": "据报道，中国人工智能初创企业深度求索（DeepSeek）正与投资者洽谈首轮外部融资，计划以至少 100 亿美元估值募集不少于 3 亿美元资金。这是 DeepSeek 成立以来首次引入外部资本的尝试。报道指出，DeepSeek 此前已多次拒绝中国头部风险投资机构与科技巨头的投资邀约。今年年初，市场曾传出阿里有意投资 DeepSeek 的消息，但...",
+    "source_count": 1,
+    "id": "1246e8aa50b1",
+    "category": "major-release"
+  },
+  {
+    "title": "SAM 3.1: Faster Real-Time Video Detection and Tracking",
+    "url": "https://ai.meta.com/blog/?page=2",
+    "source": "meta-ai-blog",
+    "sources": [
+      "meta-ai-blog"
+    ],
+    "published_at": "2026-04-12",
+    "language": "en",
+    "summary": "Meta released SAM 3.1 with multiplexing and global reasoning capabilities for faster and more accessible real-time video detection and tracking. The model builds on the Segment Anything foundation, extending from images to video with improved performance.",
+    "source_count": 1,
+    "id": "5fad4a8e8bf0",
+    "category": "major-release"
+  },
+  {
+    "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+    "url": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+    "source": "deepmind-blog",
+    "sources": [
+      "deepmind-blog"
+    ],
+    "published_at": "2026-04-13T15:52:13+00:00",
+    "language": "en",
+    "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics.",
+    "source_count": 1,
+    "id": "5bd175ecff6e",
+    "category": "major-release"
+  },
+  {
+    "title": "Codex for (almost) everything",
+    "url": "https://openai.com/index/codex-for-almost-everything",
+    "source": "openai-blog",
+    "sources": [
+      "openai-blog"
+    ],
+    "published_at": "2026-04-16T10:00:00+00:00",
+    "language": "en",
+    "summary": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
+    "source_count": 1,
+    "id": "da2109b06f57",
+    "category": "major-release"
+  },
+  {
+    "title": "腾讯混元3D世界模型2.0发布：无缝对接游戏工作流",
+    "url": "https://mp.weixin.qq.com/s/0c_q3nGA3_wXKRKK6cUhhw",
+    "source": "ai-bot-daily-news",
+    "sources": [
+      "ai-bot-daily-news"
+    ],
+    "published_at": "2026-04-20",
+    "language": "zh",
+    "summary": "腾讯混元3D世界模型2.0发布：无缝对接游戏工作流",
+    "source_count": 1,
+    "id": "837f99ea9c7f",
+    "category": "major-release"
+  },
+  {
+    "title": "人工智能编程初创公司Cursor洽谈融资20亿美元，估值超过500亿美元",
+    "url": "https://view.inews.qq.com/a/20260418A01AK900?scene=news-skill",
+    "source": "财联社",
+    "sources": [
+      "财联社"
+    ],
+    "published_at": "2026-04-18 07:44:57",
+    "language": "zh",
+    "summary": "【人工智能编程初创公司Cursor洽谈融资20亿美元 估值超过500亿美元】财联社4月18日电，一位知情人士透露，人工智能编程初创公司Cursor正在与投资者进行深入洽谈，计划在新一轮融资中融资约20亿美元，对公司的估值超过500亿美元，不包括本轮融资资金。知情人士透露，现有投资方Andreessen Horowitz将共同领投本轮融资。两位...",
+    "source_count": 1,
+    "id": "86c28117b15d",
+    "category": "industry-business"
+  },
+  {
+    "title": "DeepSeek被曝启动首次外部融资，目标估值超100亿美元",
+    "url": "https://view.inews.qq.com/a/20260419A04AOR00?scene=news-skill",
+    "source": "空之王座",
+    "sources": [
+      "空之王座"
+    ],
+    "published_at": "2026-04-19 15:10:00",
+    "language": "zh",
+    "summary": "据外媒援引知情人士消息报道，中国人工智能初创公司深度求索（DeepSeek）正与投资者洽谈融资事宜，计划以100亿美元的估值筹集至少3亿美元。      据路透社报道称，该公司凭借其低成本模型在去年....",
+    "source_count": 1,
+    "id": "421dd8963614",
+    "category": "industry-business"
+  },
+  {
+    "title": "人工智能无人机公司Shield AI融资20亿美元",
+    "url": "https://view.inews.qq.com/a/20260326A08JL300?scene=news-skill",
+    "source": "界面新闻",
+    "sources": [
+      "界面新闻"
+    ],
+    "published_at": "2026-03-26 22:29:08",
+    "language": "zh",
+    "summary": "人工智能无人机公司Shield AI当地时间3月26日宣布完成G轮融资，募资15亿美元，投后估值达127亿美元，同时还将获得5亿美元的固定收益优先股融资。...",
+    "source_count": 1,
+    "id": "2756f33778e5",
+    "category": "industry-business"
+  },
+  {
+    "title": "阿里云押注世界模型 清华系人工智能公司生数科技完成近20亿元B轮融资",
+    "url": "https://view.inews.qq.com/a/20260410A06JSV00?scene=news-skill",
+    "source": "每日经济新闻",
+    "sources": [
+      "每日经济新闻"
+    ],
+    "published_at": "2026-04-10 17:58:12",
+    "language": "zh",
+    "summary": "每经记者：可杨 每经编辑：魏官红4月10日，清华系人工智能公司生数科技宣布完成近20亿元人民币B轮融资。本轮融资由阿里云领投，中网投、九安海棠、好未来、光合创投等投资人战略投资，星连资本、达泰资本、建发新兴投资、BV百度风投、卓源亚洲等原有股东持续追加投资。生数科技方面表示，相对于大语言模型，通用世界模型天...",
+    "source_count": 1,
+    "id": "409e630e4990",
+    "category": "industry-business"
+  },
+  {
+    "title": "OpenAI’s existential questions",
+    "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+    "source": "techcrunch-ai",
+    "sources": [
+      "techcrunch-ai"
+    ],
+    "published_at": "2026-04-19T21:24:06+00:00",
+    "language": "en",
+    "summary": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
+    "source_count": 1,
+    "id": "c1ff94c69dec",
+    "category": "industry-business"
+  },
+  {
+    "title": "Anthropic’s relationship with the Trump administration seems to be thawing",
+    "url": "https://techcrunch.com/2026/04/18/anthropics-relationship-with-the-trump-administration-seems-to-be-thawing/",
+    "source": "techcrunch-ai",
+    "sources": [
+      "techcrunch-ai"
+    ],
+    "published_at": "2026-04-18T14:56:48+00:00",
+    "language": "en",
+    "summary": "Despite recently being designated a supply-chain risk by the Pentagon, Anthropic is still talking to high-level members of the Trump administration.",
+    "source_count": 1,
+    "id": "9663fd5b5912",
+    "category": "industry-business"
+  },
+  {
+    "title": "A new way to explore the web with AI Mode in Chrome",
+    "url": "https://blog.google/products-and-platforms/products/search/ai-mode-chrome/",
+    "source": "google-ai-blog",
+    "sources": [
+      "google-ai-blog"
+    ],
+    "published_at": "2026-04-16T17:00:00+00:00",
+    "language": "en",
+    "summary": "Today’s upgrades for AI Mode in Chrome transform how you interact with the web",
+    "source_count": 1,
+    "id": "54e73aa3dd50",
+    "category": "industry-business"
+  },
+  {
+    "title": "请回答2026：38位中国AI关键人物的Magic Moment和趋势判断",
+    "url": "https://m.36kr.com/p/3681460878175878",
+    "source": "36kr-ai",
+    "sources": [
+      "36kr-ai"
+    ],
+    "published_at": "2026-04-12",
+    "language": "zh",
+    "summary": "甲子光年采访了李开复、周鸿祎、稚晖君等38位中国AI关键人物。几乎没有人再把2026年视作\"更大的模型之年\"，取而代之的是对多模态模型、长期记忆突破、多智能体协作和物理世界闭环的关注。李开复认为2026年是\"企业多智能体上岗元年\"。",
+    "source_count": 1,
+    "id": "10837be401a4",
+    "category": "research-frontier"
+  },
+  {
+    "title": "Stargate on Track for 9+ GW by 2029, Comparable to NYC Peak Demand",
+    "url": "https://www.latent.space/p/ainews-the-two-sides-of-openclaw",
+    "source": "AINews / Latent.Space",
+    "sources": [
+      "AINews / Latent.Space"
+    ],
+    "published_at": "2026-04-18",
+    "language": "en",
+    "summary": "Epoch AI Research surveyed all 7 US Stargate sites and concluded the project appears on track for 9+ GW by 2029, comparable to New York City peak demand. Today's annual global datacenter capex is roughly 5–7 Manhattan Projects per year in inflation-adjusted terms.",
+    "source_count": 1,
+    "id": "d0da92abccd7",
+    "category": "research-frontier"
+  },
+  {
+    "title": "Microsoft open sources MarkItDown universal file converter",
+    "url": "https://blogs.microsoft.com/ai/",
+    "source": "microsoft-ai",
+    "sources": [
+      "microsoft-ai"
+    ],
+    "published_at": "2026-04-15",
+    "language": "en",
+    "summary": "Microsoft open-sourced a universal file conversion library supporting Office to Markdown and YouTube content extraction. The tool has become essential for AI training data preparation, with GitHub stars growing rapidly.",
+    "source_count": 1,
+    "id": "7c71df9c9ec3",
+    "category": "research-frontier"
+  },
+  {
+    "title": "How robots learn: A brief, contemporary history",
+    "url": "https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/",
+    "source": "mit-tech-review-ai",
+    "sources": [
+      "mit-tech-review-ai"
+    ],
+    "published_at": "2026-04-17T10:00:00+00:00",
+    "language": "en",
+    "summary": "Roboticists used to dream big but build small. They’d hope to match or exceed the extraordinary complexity of the human body, and then they’d spend their career refining robotic arms for auto plants. Aim for C-3P0; end up with the Roomba. The real ambition for many of these researchers was the robot of science fiction—one…",
+    "source_count": 1,
+    "id": "6b2b8b75cd9c",
+    "category": "research-frontier"
+  },
+  {
+    "title": "AI maps science papers to predict research trends two to three years ...",
+    "url": "https://techxplore.com/news/2026-04-ai-science-papers-trends-years.html",
+    "source": "search-research",
+    "sources": [
+      "search-research"
+    ],
+    "published_at": "2026-04-20",
+    "language": "en",
+    "summary": "Using artificial intelligence (AI), they systematically analyzed materials science publications to identify potential new avenues of research.",
+    "source_count": 1,
+    "id": "5d54996e31aa",
+    "category": "research-frontier"
+  },
+  {
+    "title": "Morgan Stanley Predicts AI Breakthrough in 2026 - LinkedIn",
+    "url": "https://www.linkedin.com/posts/carlos-gray-9a65b816b_ai-artificialintelligence-machinelearning-activity-7445500602333433856-VBMy",
+    "source": "search-research",
+    "sources": [
+      "search-research"
+    ],
+    "published_at": "2026-04-20",
+    "language": "en",
+    "summary": "AI is exploding into 2026 with massive breakthroughs! Morgan Stanley predicts a transformative leap in H1, powered by compute scaling.",
+    "source_count": 1,
+    "id": "3096bdfb53cc",
+    "category": "research-frontier"
+  },
+  {
+    "title": "AI芯片初创企业融资，创纪录",
+    "url": "https://view.inews.qq.com/a/20260419A03Q5U00?scene=news-skill",
+    "source": "半导体行业观察",
+    "sources": [
+      "半导体行业观察"
+    ],
+    "published_at": "2026-04-19 11:40:50",
+    "language": "zh",
+    "summary": "英伟达凭借对用于训练和运行模型的最强大芯片的垄断，该公司已巩固了其在人工智能繁荣的核心地位，但越来越多的初创公司决心挑战该公司的霸主地位。      而且，越来越多的投资者正向人工智能芯片领域投入巨....",
+    "source_count": 1,
+    "id": "df8fbf27761d",
+    "category": "research-frontier"
+  },
+  {
+    "title": "AI颠覆了很多行业，为何却唯独能与体育共舞？",
+    "url": "https://view.inews.qq.com/a/20260418A04HLV00?scene=news-skill",
+    "source": "体育产业独立评论",
+    "sources": [
+      "体育产业独立评论"
+    ],
+    "published_at": "2026-04-18 15:01:45",
+    "language": "zh",
+    "summary": "导语【文眼】“AI不是末日，当人类回归真实与情绪，我们总能找到突破口。体育为我们提供了这样一种可能，它不会因为算法改变叙事逻辑，也不会因为迭代偏离朴素的真理。”——咪咕视讯副董事长、总经理李黎作者丨张宾图片丨来自网络AI，这场席卷全球的技术风暴，正在重构内容产业的底层逻辑。从短剧制作成本的断崖式下跌，到...",
+    "source_count": 1,
+    "id": "8a8c7a584915",
+    "category": "research-frontier"
+  },
+  {
+    "title": "李飞飞旗下World Labs开源3D高斯溅射渲染引擎 Spark 2.0",
+    "url": "https://mp.weixin.qq.com/s/4m-RUPdLnzvXSx-cyBqhsQ",
+    "source": "ai-bot-daily-news",
+    "sources": [
+      "ai-bot-daily-news"
+    ],
+    "published_at": "2026-04-20",
+    "language": "zh",
+    "summary": "李飞飞旗下World Labs开源3D高斯溅射渲染引擎 Spark 2.0",
+    "source_count": 1,
+    "id": "fa7eecad2203",
+    "category": "tools-release"
+  },
+  {
+    "title": "新 Voicebox – 开源本地语音合成工具，ElevenLabs 开源平替",
+    "url": "https://ai-bot.cn/voicebox/ \"Voicebox – 开源本地语音合成工具，ElevenLabs 开源平替\"",
+    "source": "ai-bot-tools",
+    "sources": [
+      "ai-bot-tools"
+    ],
+    "published_at": "2026-04-20",
+    "language": "zh",
+    "summary": "新 Voicebox – 开源本地语音合成工具，ElevenLabs 开源平替",
+    "source_count": 1,
+    "id": "31c598df0086",
+    "category": "tools-release"
+  },
+  {
+    "title": "Project Glasswing",
+    "url": "https://www.anthropic.com/glasswing",
+    "source": "anthropic-news",
+    "sources": [
+      "anthropic-news"
+    ],
+    "published_at": "2026-04-07",
+    "language": "en",
+    "summary": "Project Glasswing brings together AWS, Anthropic, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks to secure the world's most critical software. This unprecedented industry collaboration targets open-source software supply chain security.",
+    "source_count": 1,
+    "id": "44d8608c19ee",
+    "category": "tools-release"
+  },
+  {
+    "title": "百度文心开源文生图模型 ERNIE-Image",
+    "url": "https://mp.weixin.qq.com/s/EtG4iDbft495wD3fTKd1ig",
+    "source": "ai-bot-daily-news",
+    "sources": [
+      "ai-bot-daily-news"
+    ],
+    "published_at": "2026-04-20",
+    "language": "zh",
+    "summary": "百度文心开源文生图模型 ERNIE-Image",
+    "source_count": 1,
+    "id": "ce533aee8eb9",
+    "category": "tools-release"
+  },
+  {
+    "title": "新 Audio Flamingo Next – 英伟达等开源的音频语言模型",
+    "url": "https://ai-bot.cn/audio-flamingo-next/ \"Audio Flamingo Next – 英伟达等开源的音频语言模型\"",
+    "source": "ai-bot-tools",
+    "sources": [
+      "ai-bot-tools"
+    ],
+    "published_at": "2026-04-20",
+    "language": "zh",
+    "summary": "新 Audio Flamingo Next – 英伟达等开源的音频语言模型",
+    "source_count": 1,
+    "id": "5f9e11169ac7",
+    "category": "tools-release"
+  },
+  {
+    "title": "LingBot-Map – 蚂蚁灵波开源的流式 3D 重建模型",
+    "url": "https://ai-bot.cn/lingbot-map/ \"LingBot-Map – 蚂蚁灵波开源的流式 3D 重建模型\"",
+    "source": "ai-bot-tools",
+    "sources": [
+      "ai-bot-tools"
+    ],
+    "published_at": "2026-04-20",
+    "language": "zh",
+    "summary": "LingBot-Map – 蚂蚁灵波开源的流式 3D 重建模型",
+    "source_count": 1,
+    "id": "5a32cb73967e",
+    "category": "tools-release"
+  },
+  {
+    "title": "新一代记忆智能体框架MIA：让智能体告别「失忆式工作」，在持续进化中变强",
+    "url": "https://view.inews.qq.com/a/20260419A03Y5H00?scene=news-skill",
+    "source": "机器之心",
+    "sources": [
+      "机器之心"
+    ],
+    "published_at": "2026-04-19 12:29:18",
+    "language": "zh",
+    "summary": "本文共同一作是上海创智学院博士生乔静阳、孟炜程，通讯作者是华东师范大学张志忠副教授，项目主导人是国家优青谢源教授。Never memorize something that you can look up. — Albert Einstein如今的大多数智能体，仍然活在一种「失忆式工作」模式中：每一次检索都是从零开始，每一条推理路径都无法沉淀，每一次失败也不会...",
+    "source_count": 1,
+    "id": "f590d46bbfce",
+    "category": "tools-release"
+  },
+  {
+    "title": "Turn your best AI prompts into one-click tools in Chrome",
+    "url": "https://blog.google/products-and-platforms/products/chrome/skills-in-chrome/",
+    "source": "google-ai-blog",
+    "sources": [
+      "google-ai-blog"
+    ],
+    "published_at": "2026-04-14T17:00:00+00:00",
+    "language": "en",
+    "summary": "Skills in Chrome let you discover, save and remix AI workflows — and repeat them instantly.",
+    "source_count": 1,
+    "id": "f7f7a2fb1406",
+    "category": "tools-release"
+  },
+  {
+    "title": "[PDF] National Policy Framework for Artificial Intelligence - The White House",
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2026/03/03.20.26-National-Policy-Framework-for-Artificial-Intelligence-Legislative-Recommendations.pdf",
+    "source": "search-policy",
+    "sources": [
+      "search-policy"
+    ],
+    "published_at": "2026-04-20",
+    "language": "en",
+    "summary": "• Congress should ensure that it does not preempt states from enforcing their own generally applicable laws protecting children, such as prohibitions on child sexual abuse material, even where such material is generated by AI. • Congress should consider establishing a federal framework protecting individuals from the unauthorized distribution or commercial use of AI-generated digital replicas of their voice, likeness, or other identifiable attributes, while providing clear exceptions for parody, satire, news reporting, and other expressive works protected by the First Amendment. • Congress should preempt state AI laws that impose undue burdens to ensure a minimally burdensome national standard consistent with these recommendations, not fifty discordant ones. • This national standard should respect key principles of federalism and not preempt: o The traditional police powers retained by the states to enforce laws of general applicability against AI developers and users, including particular laws to protect children, prevent fraud, and protect consumers.",
+    "source_count": 1,
+    "id": "9dc1638642dd",
+    "category": "policy-regulation"
+  },
+  {
+    "title": "特朗普政府推出全国性AI政策框架 拟统一监管并限制各州立法权",
+    "url": "https://view.inews.qq.com/a/20260321A00R3F00?scene=news-skill",
+    "source": "财联社",
+    "sources": [
+      "财联社"
+    ],
+    "published_at": "2026-03-21 01:22:11",
+    "language": "zh",
+    "summary": "财联社3月21日讯（编辑 牛占林）特朗普政府周五发布了一项人工智能(AI)立法框架，旨在建立统一的国家级政策体系，为这一新兴技术设定一致的安全与监管标准，同时限制各州自行制定AI法规的权力。这份包含六大支柱的纲要性文件提出了一系列针对AI产品和基础设施的监管措施，包括引入新的儿童安全规则，以及对AI数据中心的审批...",
+    "source_count": 1,
+    "id": "9cc0de763c03",
+    "category": "policy-regulation"
+  },
+  {
+    "title": "AI Governance Watch: Nineteen New AI Bills Passed Into ...",
+    "url": "https://pluralpolicy.com/blog/the-ai-governance-watch-april-2026-nineteen-new-ai-bills-passed-into-law/",
+    "source": "search-policy",
+    "sources": [
+      "search-policy"
+    ],
+    "published_at": "2026-04-20",
+    "language": "en",
+    "summary": "*   [SB 11](https://pluralpolicy.com/app/legislative-tracking/bill/details/state-co-2026a-sb11/2968731)– Relates to search warrants provided to covered platforms including social media companies and AI platforms. *   [S 1297](https://pluralpolicy.com/app/legislative-tracking/bill/details/state-id-2026-s1297/2953077)– Establishes regulations for conversational AI services. *   [SB 256](https://pluralpolicy.com/app/legislative-tracking/bill/details/state-ut-2026-sb256/2945650)– Amends defamation and personal identity protection laws to address artificial intelligence (AI) and digitally manipulated content. *   [SB 267](https://pluralpolicy.com/app/legislative-tracking/bill/details/state-ut-2026-sb267/2946736)– This bill requires the Utah State Board of Education (state board) to study best practices for software use in public schools including as it relates to data privacy and AI. *   [SB 319](https://pluralpolicy.com/app/legislative-tracking/bill/details/state-ut-2026-sb319/2944941)– This bill amends Utah’s health insurance preauthorization laws (Section 31A-22-650) with several significant changes including increased disclosure requirements for the use of AI by insurers. *   [HB 1170](https://pluralpolicy.com/app/legislative-tracking/bill/details/state-wa-2025_2026-hb1170/2946953)– Requiring large AI providers (1M+ monthly users) and government agencies to inform users when content is modified using artificial intelligence. *   [SB 5105](https://pluralpolicy.com/app/legislative-tracking/bill/details/state-wa-2025_2026-sb5105/2942418)– Expands and strengthens existing laws against sexually explicit depictions of minors, with a particular focus on AI-generated content. *   [SB 5395](https://pluralpolicy.com/app/legislative-tracking/bill/details/state-wa-2025_2026-sb5395/2942385)– Increases restrictions on the use of AI in prior authorizations by health insurance carriers.",
+    "source_count": 1,
+    "id": "88b621108f07",
+    "category": "policy-regulation"
+  },
+  {
+    "title": "防止偏见歧视、算法压榨，重磅政策出台剑指AI科技伦理治理",
+    "url": "https://view.inews.qq.com/a/20260407A06K8R00?scene=news-skill",
+    "source": "21世纪经济报道",
+    "sources": [
+      "21世纪经济报道"
+    ],
+    "published_at": "2026-04-07 18:54:16",
+    "language": "zh",
+    "summary": "21世纪经济报道记者 冉黎黎 今年政府工作报告首次提出“打造智能经济新形态”，并强调“完善人工智能治理”。 人工智能科技伦理治理是人工智能治理的重要组成部分。近日，工业和信息化部等十部门联合印发《人工智能科技伦理审查与服务办法（试行）》（以下简称《办法》），为我国人工智能科技伦理审查与服务工作提供了明确...",
+    "source_count": 1,
+    "id": "3b5b4278ae81",
+    "category": "policy-regulation"
+  },
+  {
+    "title": "南非发布AI政策草案 拟推多监管治理模式",
+    "url": "https://view.inews.qq.com/a/20260411A01S9700?scene=news-skill",
+    "source": "中国新闻网",
+    "sources": [
+      "中国新闻网"
+    ],
+    "published_at": "2026-04-11 08:52:08",
+    "language": "zh",
+    "summary": "中新社约翰内斯堡4月11日电(记者 孙翔)南非10日公布国家人工智能(AI)政策草案，将采取“分领域、多监管机构”的治理模式。 该草案由南非通信与数字技术部发布，旨在完善监管体系、促进技术创新，推动本国人工智能生态系统发展，同时应对相关的伦理、社会和经济挑战。草案基于2024年发布的国家人工智能政策框架制定，并吸收...",
+    "source_count": 1,
+    "id": "4b1bc03d4573",
+    "category": "policy-regulation"
+  },
+  {
+    "title": "Microsoft invests $5.5 billion in Singapore AI",
+    "url": "https://blogs.microsoft.com/ai/",
+    "source": "microsoft-ai",
+    "sources": [
+      "microsoft-ai"
+    ],
+    "published_at": "2026-04-02",
+    "language": "en",
+    "summary": "Microsoft is investing $5.5 billion in Singapore for regional AI infrastructure, setting a new record for the company in Asia-Pacific. Students will receive free Copilot subscriptions to assist with digital transformation in education.",
+    "source_count": 1,
+    "id": "8b6166264978",
+    "category": "policy-regulation"
+  }
+]

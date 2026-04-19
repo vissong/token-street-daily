@@ -1,4 +1,24 @@
 sources:
+  # ============================================================
+  # Git-tracked JSON feed (AI KOL/Builder 动态)
+  # ============================================================
+  - name: follow-builders
+    type: cli
+    enabled: true
+    language: en
+    priority: 1
+    command: >
+      python3 scripts/fetch_follow_builders.py
+      --cache-dir data/sources/follow-builders
+      --output data/raw/{{date}}/follow-builders.md
+      --recent-hours 24
+    check:
+      binary: git
+      install_hint: "git must be installed and available in PATH"
+
+  # ============================================================
+  # Web sources — 新闻聚合站
+  # ============================================================
   - name: venturebeat-ai
     type: web
     enabled: true
@@ -11,6 +31,106 @@ sources:
       follow_articles: false
       timeout_seconds: 30
 
+  - name: techcrunch-ai
+    type: web
+    enabled: true
+    language: en
+    priority: 1
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    extract:
+      item_limit: 15
+      time_window_hours: 24
+      follow_articles: true
+      follow_limit: 10
+      timeout_seconds: 30
+
+  - name: theverge-ai
+    type: web
+    enabled: true
+    language: en
+    priority: 1
+    url: https://www.theverge.com/ai-artificial-intelligence
+    extract:
+      item_limit: 10
+      time_window_hours: 48
+      follow_articles: false
+      timeout_seconds: 30
+
+  - name: mit-tech-review-ai
+    type: web
+    enabled: true
+    language: en
+    priority: 1
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed/
+    extract:
+      item_limit: 10
+      time_window_hours: 48
+      follow_articles: false
+      timeout_seconds: 30
+      exclude_keywords: ["Sponsored"]
+
+  - name: 36kr-ai
+    type: web
+    enabled: true
+    language: zh
+    priority: 1
+    url: https://36kr.com/search/articles/AI
+    extract:
+      item_limit: 15
+      time_window_hours: 48
+      timeout_seconds: 30
+
+  - name: ai-bot-daily-news
+    type: web
+    enabled: true
+    language: zh
+    priority: 1
+    url: https://ai-bot.cn/daily-ai-news/
+    extract:
+      item_limit: 20
+      time_window_hours: 48
+      exclude_selectors: [".ad", ".sponsored", ".advert", "[class*=promo]", "[class*=推广]"]
+      exclude_keywords: ["广告", "推广", "赞助", "sponsored", "AD"]
+
+  - name: ai-bot-tools
+    type: web
+    enabled: true
+    language: zh
+    priority: 2
+    url: https://ai-bot.cn/ai-tools/
+    extract:
+      item_limit: 15
+      time_window_hours: 168
+      exclude_selectors: [".ad", ".sponsored", ".advert", "[class*=promo]", "[class*=推广]"]
+      exclude_keywords: ["广告", "推广", "赞助", "sponsored", "AD"]
+
+  - name: artificial-intelligence-news
+    type: web
+    enabled: true
+    language: en
+    priority: 2
+    url: https://artificialintelligence-news.com/feed/
+    extract:
+      item_limit: 10
+      time_window_hours: 48
+      follow_articles: true
+      follow_limit: 8
+      timeout_seconds: 30
+
+  - name: ai-hub-today
+    type: web
+    enabled: true
+    language: en
+    priority: 2
+    url: "https://ai.hubtoday.app/{{year-month}}/{{date}}"
+    extract:
+      item_limit: 20
+      time_window_hours: 48
+      timeout_seconds: 30
+
+  # ============================================================
+  # Web sources — 公司官方博客
+  # ============================================================
   - name: openai-blog
     type: web
     enabled: true
@@ -18,7 +138,277 @@ sources:
     priority: 1
     url: https://openai.com/blog/rss.xml
     extract:
+      item_limit: 10
+      time_window_hours: 168
+      follow_articles: true
+      follow_limit: 5
+      timeout_seconds: 30
+
+  - name: anthropic-news
+    type: web
+    enabled: true
+    language: en
+    priority: 1
+    url: https://www.anthropic.com/news
+    extract:
+      item_limit: 10
+      time_window_hours: 168
+      follow_articles: false
+      timeout_seconds: 30
+
+  - name: google-ai-blog
+    type: web
+    enabled: true
+    language: en
+    priority: 1
+    url: https://blog.google/technology/ai/rss/
+    extract:
+      item_limit: 10
+      time_window_hours: 168
+      follow_articles: true
+      follow_limit: 5
+      timeout_seconds: 30
+
+  - name: deepmind-blog
+    type: web
+    enabled: true
+    language: en
+    priority: 1
+    url: https://deepmind.google/discover/blog/feed/
+    extract:
+      item_limit: 10
+      time_window_hours: 168
+      follow_articles: true
+      follow_limit: 5
+      timeout_seconds: 30
+
+  - name: microsoft-ai
+    type: web
+    enabled: true
+    language: en
+    priority: 2
+    url: https://blogs.microsoft.com/ai/
+    extract:
       item_limit: 8
       time_window_hours: 168
       follow_articles: false
       timeout_seconds: 30
+
+  - name: meta-ai-blog
+    type: web
+    enabled: true
+    language: en
+    priority: 2
+    url: https://ai.meta.com/blog/
+    extract:
+      item_limit: 8
+      time_window_hours: 168
+      follow_articles: false
+      timeout_seconds: 30
+
+  # ============================================================
+  # Web sources — 研究
+  # ============================================================
+  - name: arxiv-cs-ai
+    type: web
+    enabled: true
+    language: en
+    priority: 2
+    url: https://arxiv.org/rss/cs.AI
+    extract:
+      item_limit: 15
+      time_window_hours: 48
+      follow_articles: false
+      timeout_seconds: 30
+
+  - name: arxiv-cs-lg
+    type: web
+    enabled: true
+    language: en
+    priority: 2
+    url: https://arxiv.org/rss/cs.LG
+    extract:
+      item_limit: 15
+      time_window_hours: 48
+      follow_articles: false
+      timeout_seconds: 30
+
+  - name: arxiv-cs-cl
+    type: web
+    enabled: true
+    language: en
+    priority: 2
+    url: https://arxiv.org/rss/cs.CL
+    extract:
+      item_limit: 15
+      time_window_hours: 48
+      follow_articles: false
+      timeout_seconds: 30
+
+  - name: huggingface-blog
+    type: web
+    enabled: true
+    language: en
+    priority: 2
+    url: https://huggingface.co/blog/feed.xml
+    extract:
+      item_limit: 10
+      time_window_hours: 72
+      follow_articles: true
+      follow_limit: 5
+      timeout_seconds: 30
+
+  # ============================================================
+  # Web sources — 中文平台
+  # ============================================================
+  - name: weixin-sogou
+    type: web
+    enabled: true
+    language: zh
+    priority: 2
+    url: https://weixin.sogou.com/weixin?type=2&query=AI
+    extract:
+      item_limit: 15
+      time_window_hours: 48
+      exclude_keywords: ["广告", "推广", "赞助"]
+      preferred_accounts:
+        - 机器之心
+        - 新智元
+        - 量子位
+        - 智东西
+        - 雷锋网
+        - 36氪
+
+  # ============================================================
+  # Search sources — 补充搜索
+  # ============================================================
+  - name: search-major-release
+    type: search
+    enabled: true
+    language: en
+    priority: 2
+    query: '"AI model release" OR "launches" OR "announces" after:{{yesterday}}'
+    extract:
+      result_limit: 15
+      follow_articles: false
+
+  - name: search-funding
+    type: search
+    enabled: true
+    language: en
+    priority: 2
+    query: '"AI startup" (funding OR Series OR raises) after:{{yesterday}}'
+    extract:
+      result_limit: 10
+      follow_articles: false
+
+  - name: search-research
+    type: search
+    enabled: true
+    language: en
+    priority: 2
+    query: '"AI paper" OR "machine learning breakthrough" after:{{yesterday}}'
+    extract:
+      result_limit: 10
+      follow_articles: false
+
+  - name: search-policy
+    type: search
+    enabled: true
+    language: en
+    priority: 2
+    query: 'AI (regulation OR policy OR bill OR law) after:{{yesterday}}'
+    extract:
+      result_limit: 10
+      follow_articles: false
+
+  # ============================================================
+  # CLI sources — 腾讯新闻（中文国内）
+  # ============================================================
+  - name: tencent-news-ai-search
+    type: cli
+    enabled: true
+    language: zh
+    priority: 1
+    command: '/Users/vissong/.tencent-news-cli/bin/tencent-news-cli search "AI 大模型" --limit 20 --caller ai-newsletter-builder'
+    parser: tencent-news-cli
+    check:
+      binary: /Users/vissong/.tencent-news-cli/bin/tencent-news-cli
+      install_hint: "install from https://news.qq.com/exchange?scene=appkey then: tencent-news-cli apikey-set <your-key>"
+    extract:
+      item_limit: 20
+      time_window_hours: 48
+      exclude_keywords: ["ETF", "涨停", "跌停", "涨超", "跌超", "股票", "基金", "大盘", "行情"]
+
+  - name: tencent-news-ai-agent
+    type: cli
+    enabled: true
+    language: zh
+    priority: 1
+    command: '/Users/vissong/.tencent-news-cli/bin/tencent-news-cli search "AI 智能体 Agent" --limit 15 --caller ai-newsletter-builder'
+    parser: tencent-news-cli
+    check:
+      binary: /Users/vissong/.tencent-news-cli/bin/tencent-news-cli
+      install_hint: "install from https://news.qq.com/exchange?scene=appkey"
+    extract:
+      item_limit: 15
+      time_window_hours: 48
+      exclude_keywords: ["ETF", "涨停", "跌停", "股票", "基金"]
+
+  - name: tencent-news-ai-funding
+    type: cli
+    enabled: true
+    language: zh
+    priority: 2
+    command: '/Users/vissong/.tencent-news-cli/bin/tencent-news-cli search "人工智能 融资" --limit 15 --caller ai-newsletter-builder'
+    parser: tencent-news-cli
+    check:
+      binary: /Users/vissong/.tencent-news-cli/bin/tencent-news-cli
+      install_hint: "install from https://news.qq.com/exchange?scene=appkey"
+    extract:
+      item_limit: 15
+      time_window_hours: 48
+      exclude_keywords: ["ETF", "涨停", "跌停", "股票", "基金", "大盘"]
+
+  - name: tencent-news-ai-policy
+    type: cli
+    enabled: true
+    language: zh
+    priority: 2
+    command: '/Users/vissong/.tencent-news-cli/bin/tencent-news-cli search "AI 政策 法规" --limit 15 --caller ai-newsletter-builder'
+    parser: tencent-news-cli
+    check:
+      binary: /Users/vissong/.tencent-news-cli/bin/tencent-news-cli
+      install_hint: "install from https://news.qq.com/exchange?scene=appkey"
+    extract:
+      item_limit: 15
+      time_window_hours: 72
+      exclude_keywords: ["ETF", "涨停", "跌停", "股票", "基金"]
+
+  # ============================================================
+  # Email sources — Gmail AI Newsletter 订阅
+  # ============================================================
+  - name: gmail-ai-newsletter
+    type: email
+    enabled: true
+    language: en
+    priority: 1
+    provider: gmail
+    cli: himalaya
+    cli_account: gmail
+    query: "newer_than:2d"
+    extract:
+      max_messages: 30
+      include_body: true
+      strip_quoted: true
+      timeout_seconds: 60
+      exclude_keywords: ["广告", "sponsored", "unsubscribe to stop"]
+      newsletter_senders:
+        - AINews
+        - Turing Post
+        - The AI Break
+        - Every
+        - AI Valley
+        - Latent.Space
+        - Simon Willison
+        - LangChain

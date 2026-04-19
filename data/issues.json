@@ -1,6 +1,49 @@
 {
   "issues": [
     {
+      "date": "2026-04-20",
+      "title": "AI 日报 · 词元长街 — 2026-04-20",
+      "path": "issues/2026-04-20.html",
+      "item_count": 40,
+      "source_count": 19,
+      "summary": "第 002 期：30 个数据源全面采集——涵盖 OpenAI/Anthropic/Google/Meta 官方博客、英文科技媒体、中文 AI 资讯、arXiv 论文、Gmail 订阅。多巨头新品齐发，行业融资与政策监管并行。共 40 条精选。",
+      "generated_at": "2026-04-20T07:00:00Z",
+      "categories": {
+        "major-release": 10,
+        "industry-business": 8,
+        "tools-release": 8,
+        "research-frontier": 8,
+        "policy-regulation": 6
+      },
+      "top_items": [
+        {
+          "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+          "category": "major-release",
+          "source_count": 2
+        },
+        {
+          "title": "A new way to explore the web with AI Mode in Chrome",
+          "category": "industry-business",
+          "source_count": 1
+        },
+        {
+          "title": "Project Glasswing",
+          "category": "tools-release",
+          "source_count": 1
+        },
+        {
+          "title": "请回答2026：38位中国AI关键人物的Magic Moment和趋势判断",
+          "category": "research-frontier",
+          "source_count": 1
+        },
+        {
+          "title": "New AI Model Releases News | April, 2026 (STARTUP ...",
+          "category": "policy-regulation",
+          "source_count": 2
+        }
+      ]
+    },
+    {
       "date": "2026-04-19",
       "title": "AI 日报 · 词元长街 — 2026-04-19",
       "path": "issues/2026-04-19.html",
@@ -16,11 +59,31 @@
         "policy-regulation": 1
       },
       "top_items": [
-        {"title": "OpenAI 发布 GPT-Rosalind 生命科学专用推理模型", "category": "major-release", "source_count": 1},
-        {"title": "AI 编程平台 Cursor 以 5000 亿估值融资 20 亿", "category": "industry-business", "source_count": 1},
-        {"title": "xAI 发布极低价 Grok 语音 API（STT + TTS）", "category": "major-release", "source_count": 1},
-        {"title": "DeepSeek 开源 DeepGEMM 高性能矩阵乘法算子库", "category": "tools-release", "source_count": 1},
-        {"title": "OpenAI Codex 重大升级：集成电脑操控与图像生成", "category": "major-release", "source_count": 1}
+        {
+          "title": "OpenAI 发布 GPT-Rosalind 生命科学专用推理模型",
+          "category": "major-release",
+          "source_count": 1
+        },
+        {
+          "title": "AI 编程平台 Cursor 以 5000 亿估值融资 20 亿",
+          "category": "industry-business",
+          "source_count": 1
+        },
+        {
+          "title": "xAI 发布极低价 Grok 语音 API（STT + TTS）",
+          "category": "major-release",
+          "source_count": 1
+        },
+        {
+          "title": "DeepSeek 开源 DeepGEMM 高性能矩阵乘法算子库",
+          "category": "tools-release",
+          "source_count": 1
+        },
+        {
+          "title": "OpenAI Codex 重大升级：集成电脑操控与图像生成",
+          "category": "major-release",
+          "source_count": 1
+        }
       ]
     }
   ]

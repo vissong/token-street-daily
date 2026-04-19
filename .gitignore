@@ -2,3 +2,5 @@
 # 原始采集内容（含邮件正文等隐私数据）不提交
 data/raw/**/gmail-*.md
 data/raw/**/email-*.md
+data/sources/follow-builders/
+data/raw/**/gmail-*.md

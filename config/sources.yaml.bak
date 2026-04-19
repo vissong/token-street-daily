@@ -1,0 +1,24 @@
+sources:
+  - name: venturebeat-ai
+    type: web
+    enabled: true
+    language: en
+    priority: 1
+    url: https://venturebeat.com/category/ai/feed
+    extract:
+      item_limit: 10
+      time_window_hours: 24
+      follow_articles: false
+      timeout_seconds: 30
+
+  - name: openai-blog
+    type: web
+    enabled: true
+    language: en
+    priority: 1
+    url: https://openai.com/blog/rss.xml
+    extract:
+      item_limit: 8
+      time_window_hours: 168
+      follow_articles: false
+      timeout_seconds: 30
