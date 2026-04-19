@@ -1,0 +1,27 @@
+{
+  "issues": [
+    {
+      "date": "2026-04-19",
+      "title": "AI 日报 · 词元长街 — 2026-04-19",
+      "path": "issues/2026-04-19.html",
+      "item_count": 17,
+      "source_count": 2,
+      "summary": "今日重点：OpenAI 多线齐发——GPT-Rosalind 生命科学模型亮相、Codex 升级集成电脑操控；xAI Grok 推出极低价语音 API；Cursor 以 5000 亿估值完成 20 亿融资；DeepSeek 开源 DeepGEMM 算子库。共 17 条。",
+      "generated_at": "2026-04-19T08:30:00Z",
+      "categories": {
+        "major-release": 4,
+        "industry-business": 5,
+        "tools-release": 4,
+        "research-frontier": 3,
+        "policy-regulation": 1
+      },
+      "top_items": [
+        {"title": "OpenAI 发布 GPT-Rosalind 生命科学专用推理模型", "category": "major-release", "source_count": 1},
+        {"title": "AI 编程平台 Cursor 以 5000 亿估值融资 20 亿", "category": "industry-business", "source_count": 1},
+        {"title": "xAI 发布极低价 Grok 语音 API（STT + TTS）", "category": "major-release", "source_count": 1},
+        {"title": "DeepSeek 开源 DeepGEMM 高性能矩阵乘法算子库", "category": "tools-release", "source_count": 1},
+        {"title": "OpenAI Codex 重大升级：集成电脑操控与图像生成", "category": "major-release", "source_count": 1}
+      ]
+    }
+  ]
+}

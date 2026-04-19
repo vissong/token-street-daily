@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI 日报 · 词元长街</title>
+    <link>https://vissong.github.io/token-street-daily</link>
+    <description>每日 AI 资讯精选</description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 19 Apr 2026 14:34:55 +0000</lastBuildDate>
+    <atom:link href="https://vissong.github.io/token-street-daily/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AI 日报 · 词元长街 — 2026-04-19</title>
+      <link>https://vissong.github.io/token-street-daily/issues/2026-04-19.html</link>
+      <guid isPermaLink="true">https://vissong.github.io/token-street-daily/issues/2026-04-19.html</guid>
+      <pubDate>Sun, 19 Apr 2026 08:30:00 +0000</pubDate>
+      <description><![CDATA[<p>今日重点：OpenAI 多线齐发——GPT-Rosalind 生命科学模型亮相、Codex 升级集成电脑操控；xAI Grok 推出极低价语音 API；Cursor 以 5000 亿估值完成 20 亿融资；DeepSeek 开源 DeepGEMM 算子库。共 17 条。</p><ul><li><a href="#">OpenAI 发布 GPT-Rosalind 生命科学专用推理模型</a> [重大发布]</li><li><a href="#">AI 编程平台 Cursor 以 5000 亿估值融资 20 亿</a> [行业动态及商业价值]</li><li><a href="#">xAI 发布极低价 Grok 语音 API（STT + TTS）</a> [重大发布]</li><li><a href="#">DeepSeek 开源 DeepGEMM 高性能矩阵乘法算子库</a> [工具发布]</li><li><a href="#">OpenAI Codex 重大升级：集成电脑操控与图像生成</a> [重大发布]</li></ul>]]></description>
+    </item>
+  </channel>
+</rss>
