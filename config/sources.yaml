@@ -11,7 +11,7 @@ sources:
       python3 scripts/fetch_follow_builders.py
       --cache-dir data/sources/follow-builders
       --output data/raw/{{date}}/follow-builders.md
-      --recent-hours 24
+      --recent-hours 48
     check:
       binary: git
       install_hint: "git must be installed and available in PATH"
@@ -27,7 +27,7 @@ sources:
     url: https://venturebeat.com/category/ai/feed
     extract:
       item_limit: 10
-      time_window_hours: 24
+      time_window_hours: 48
       follow_articles: false
       timeout_seconds: 30
 
@@ -39,7 +39,7 @@ sources:
     url: https://techcrunch.com/category/artificial-intelligence/feed/
     extract:
       item_limit: 15
-      time_window_hours: 24
+      time_window_hours: 48
       follow_articles: true
       follow_limit: 10
       timeout_seconds: 30
@@ -100,7 +100,7 @@ sources:
     url: https://ai-bot.cn/ai-tools/
     extract:
       item_limit: 15
-      time_window_hours: 168
+      time_window_hours: 48
       exclude_selectors: [".ad", ".sponsored", ".advert", "[class*=promo]", "[class*=推广]"]
       exclude_keywords: ["广告", "推广", "赞助", "sponsored", "AD"]
 
@@ -139,7 +139,7 @@ sources:
     url: https://openai.com/blog/rss.xml
     extract:
       item_limit: 10
-      time_window_hours: 168
+      time_window_hours: 48
       follow_articles: true
       follow_limit: 5
       timeout_seconds: 30
@@ -152,7 +152,7 @@ sources:
     url: https://www.anthropic.com/news
     extract:
       item_limit: 10
-      time_window_hours: 168
+      time_window_hours: 48
       follow_articles: false
       timeout_seconds: 30
 
@@ -164,7 +164,7 @@ sources:
     url: https://blog.google/technology/ai/rss/
     extract:
       item_limit: 10
-      time_window_hours: 168
+      time_window_hours: 48
       follow_articles: true
       follow_limit: 5
       timeout_seconds: 30
@@ -177,7 +177,7 @@ sources:
     url: https://deepmind.google/discover/blog/feed/
     extract:
       item_limit: 10
-      time_window_hours: 168
+      time_window_hours: 48
       follow_articles: true
       follow_limit: 5
       timeout_seconds: 30
@@ -190,7 +190,7 @@ sources:
     url: https://blogs.microsoft.com/ai/
     extract:
       item_limit: 8
-      time_window_hours: 168
+      time_window_hours: 48
       follow_articles: false
       timeout_seconds: 30
 
@@ -202,7 +202,7 @@ sources:
     url: https://ai.meta.com/blog/
     extract:
       item_limit: 8
-      time_window_hours: 168
+      time_window_hours: 48
       follow_articles: false
       timeout_seconds: 30
 
@@ -253,7 +253,7 @@ sources:
     url: https://huggingface.co/blog/feed.xml
     extract:
       item_limit: 10
-      time_window_hours: 72
+      time_window_hours: 48
       follow_articles: true
       follow_limit: 5
       timeout_seconds: 30
@@ -382,7 +382,7 @@ sources:
       install_hint: "install from https://news.qq.com/exchange?scene=appkey"
     extract:
       item_limit: 15
-      time_window_hours: 72
+      time_window_hours: 48
       exclude_keywords: ["ETF", "涨停", "跌停", "股票", "基金"]
 
   # ============================================================

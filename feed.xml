@@ -1,24 +1,291 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss version="2.0">
-  <channel>
-    <title>词元长街 · Token Street — AI 每日简报</title>
-    <link>https://token-street.pages.dev/</link>
-    <description>每日 AI 简报，聚合全球 AI 领域最新动态</description>
-    <language>zh-CN</language>
-    <lastBuildDate>Sun, 19 Apr 2026 23:51:42 GMT</lastBuildDate>
-    <item>
-      <title>AI 日报 · 词元长街 — 2026-04-20</title>
-      <link>https://token-street.pages.dev/issues/2026-04-20.html</link>
-      <description>第 002 期：30 个数据源全面采集——涵盖 OpenAI/Anthropic/Google/Meta 官方博客、英文科技媒体、中文 AI 资讯、arXiv 论文、Gmail 订阅。多巨头新品齐发，行业融资与政策监管并行。共 40 条精选。</description>
-      <pubDate>2026-04-20T07:00:00Z</pubDate>
-      <guid>https://token-street.pages.dev/issues/2026-04-20.html</guid>
-    </item>
-    <item>
-      <title>AI 日报 · 词元长街 — 2026-04-19</title>
-      <link>https://token-street.pages.dev/issues/2026-04-19.html</link>
-      <description>今日重点：OpenAI 多线齐发——GPT-Rosalind 生命科学模型亮相、Codex 升级集成电脑操控；xAI Grok 推出极低价语音 API；Cursor 以 5000 亿估值完成 20 亿融资；DeepSeek 开源 DeepGEMM 算子库。共 17 条。</description>
-      <pubDate>2026-04-19T07:00:00Z</pubDate>
-      <guid>https://token-street.pages.dev/issues/2026-04-19.html</guid>
-    </item>
-  </channel>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>AI 日报 · 词元长街</title>
+  <link>https://token-street.pages.dev</link>
+  <description>每日 AI 资讯精选 · 多源聚合 · 去重分类</description>
+  <language>zh-CN</language>
+  <lastBuildDate>Mon, 20 Apr 2026 00:30:23 +0000</lastBuildDate>
+  <atom:link href="https://token-street.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+  <item>
+    <title>Image 9: This charming gadget writes bad AI poetry</title>
+    <link>https://platform.theverge.com/wp-content/uploads/sites/2/2026/04/268467_Poetry_Camera_AJohnson_0002.jpg?quality=90&amp;strip=all&amp;crop=0.012500000000003%2C0%2C99.975%2C100&amp;w=2400</link>
+    <description></description>
+    <pubDate>2026-04-26</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>Image 1: Terrence O'Brien</title>
+    <link>https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/Terrence-OBrien-headshot-1.jpg?quality=90&amp;strip=all&amp;crop=0%2C0%2C100%2C100&amp;w=96</link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>Image 1: 36氪</title>
+    <link>https://36kr.com/search/articles/AI</link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>![Image 1: AI工具集</title>
+    <link>https://ai-bot.cn/wp-content/uploads/2023/03/ai-bot-logo-black.png</link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>Skip to main content</title>
+    <link>https://www.anthropic.com/news#main-content</link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>FEATURED ![Image 1</title>
+    <link>https://scontent-sof1-2.xx.fbcdn.net/v/t39.2365-6/667507363_1871749950191919_4996140970371485757_n.png?_nc_cat=109&amp;ccb=1-7&amp;_nc_sid=e280be&amp;_nc_ohc=lcxHmKYfYfcQ7kNvwExdeZN&amp;_nc_oc=AdouncbVnOLuUEF491FkUMkPOQTEi0OajT1EWEg9nch3Vvb7NZ6eC8UMpS3mxDrTX5-QPGdFThpcKplQHUWzdeB-&amp;_nc_zt=14&amp;_nc_ht=scontent-sof1-2.xx&amp;_nc_gid=9kdFtUpEtlLEfDlIkWfCWw&amp;_nc_ss=7a389&amp;oh=00_Af02A41_MeTSrdhIGjuekqnn84Q1M3ezh9ebpM3VX-OBRg&amp;oe=69FF97AC</link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>_AI_ 入「地」,云鲸向海</title>
+    <link>https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS41G0hdxSu6aHYzUWsC6uNuyEB4MlNl_NFqXa8Fplpd9mD75ZzBeUnwHfr-hjkKZh6F6Xzx68abWrZYJdOjd7PzMcICR8x3CH-JKV6a5Txvm-QCE6fpfQmAID3lygnqnYLPbHYoSsGrTijG9_UJGXipU5QjShkfmbvhch6NCCMN62H6COA1vM9TWWVbR4CW4IEpn82KGYHYY_IMre8d8GjZFkDr8IT4KYw..&amp;type=2&amp;query=AI&amp;token=D7E1543746578888A9ACE673E591E42AAA3FF59E69E571D5</link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>【腾讯新闻 - 搜索「AI 大模型」】 2026-04-20 08:22</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>重大发布</category>
+  </item>
+  <item>
+    <title>1. 标题：中国AI大模型专利侵权第二案：Minimax、海螺AI</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>重大发布</category>
+  </item>
+  <item>
+    <title>摘要: 作者：陆雨一个月前，企业专利观察（PRIP）报道了中国AI大模型专利侵权第一案《“全球大模型第一股”背后的中国专利定价权》，作为"大模型六小龙"中第一个IPO上市的北京智谱华章科技股份有限公司（简称“智谱AI”），成为第一个遭遇专利诉讼的大模型公司。智谱AI从2026年1月8日上市，开盘价120港元/股，市值528亿港元。但短...</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>行业动态</category>
+  </item>
+  <item>
+    <title>来源: 企业专利观察</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>发布时间: 2026-04-20 00:00:36</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>重大发布</category>
+  </item>
+  <item>
+    <title>链接: https://view.inews.qq.com/a/20260420A000I300?scene=news-skill</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>2. 标题：AI大模型周报：腾讯阿里同日发布世界模型，云服务三巨头全面涨价</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>重大发布</category>
+  </item>
+  <item>
+    <title>摘要: 4月11日至4月17日，国内AI大模型行业迎来了世界模型赛道的集中爆发。腾讯和阿里巴巴在同一天发布世界模型新品，将竞争焦点从语言对话推向空间智能。字节跳动旗下火山引擎正式上线Seedance 2.0系列API服务，面向企业和个人全面开放视频生成能力。云服务三巨头集体上调AI算力价格，算力供需关系已发生根本性逆转。港股AI概念...</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>重大发布</category>
+  </item>
+  <item>
+    <title>来源: i黑马</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>发布时间: 2026-04-18 18:17:42</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>重大发布</category>
+  </item>
+  <item>
+    <title>3. 标题：全球首个对青少年儿童的AI大模型风险榜</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>重大发布</category>
+  </item>
+  <item>
+    <title>摘要: 日前，青少年网络安全机构 TeenAegis，发布了全球首个面向青少年儿童安全的大模型风险评分榜单，TeenAegis AI Danger Index（又称 AI Harm Index）。这个榜单的特别之处在于：一方面，完全基于实证数据，如监管处罚、司法诉讼、真实伤害事故记录等，数据来源包括美国失踪与受剥削儿童中心（NCMEC）报告、FTC执法记录、法院...</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>重大发布</category>
+  </item>
+  <item>
+    <title>来源: AI先锋官官方</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>发布时间: 2026-04-19 09:54:08</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>重大发布</category>
+  </item>
+  <item>
+    <title>4. 标题：上海瑞金医院AI大模型：针对胃肠消化道、肺癌和宫颈癌等疾病，已在超10万名患者中应用</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>重大发布</category>
+  </item>
+  <item>
+    <title>摘要: 极目新闻记者 姚赟4月17日下午，国家卫生健康委在上海召开新闻发布会，介绍因地制宜推广三明医改经验有关情况。发布会现场上海市卫生健康委主任闻大翔介绍，这些年来，上海以城市全面数字化转型和大力发展人工智能等先导产业为契机，加快健康大数据的管理应用创新，大力推进 “医学+人工智能”的发展，不断促进信息化与医疗...</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>重大发布</category>
+  </item>
+  <item>
+    <title>来源: 极目新闻</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>【腾讯新闻 - 搜索「AI 智能体 Agent」】 2026-04-20 08:22</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>1. 标题：【国盛区块链】Agent支付：AI世界的金融密钥</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>摘要: 摘要近期，类似OpenClaw（龙虾）这种AI智能体不断涌现，Agent加速进入了落地阶段。在AI生态森林里，必然离不开金融支付这一关键环节。随着科技巨头推出MCP/A2A等协议，Agent支付便应运而生。在AI生态内部，Agent之间的通信协议亦已完成铺垫，Agent支付“呼之欲出”。实现Agent支付，一个首先要考虑的问题是通信层——即实现...</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>来源: 国盛区块链研究院宋嘉吉</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>研究前沿</category>
+  </item>
+  <item>
+    <title>2. 标题：AI+| “龙虾”还没养明白，新智能体“爱马仕”又火了</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>摘要: 潮新闻客户端 记者 周夏林      AI时代，节奏飞快。4月16日，腾讯和阿里巴巴十分“默契”地选择在同一天推出3D世界模型。      另一头的AI开源圈同样热闹，当国内线下的“龙虾”（Open....</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>重大发布</category>
+  </item>
+  <item>
+    <title>来源: 潮新闻</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>发布时间: 2026-04-18 07:27:11</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>重大发布</category>
+  </item>
+  <item>
+    <title>3. 标题：Cursor升级AI Agent能力，编程工具竞争进入「自动化开发」阶段</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>摘要: AIPress.com.cn报道4月20日消息，初创公司 Cursor 宣布对其AI Agent进行重大升级，以应对来自 OpenAI、Anthropic 及 Microsoft 等竞争对手的压力。此次更新的核心在于提升AI代理的“自主执行能力”。据介绍，新一代代理不仅可以生成和修改代码，还能够对自身改动进行测试，并通过视频、日志及截图记录执行过程，从而增强开...</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>来源: 鞭牛士</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>【腾讯新闻 - 搜索「人工智能 融资」】 2026-04-20 08:22</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>行业动态</category>
+  </item>
+  <item>
+    <title>1. 标题：人工智能编程初创公司Cursor洽谈融资20亿美元，估值超过500亿美元</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>行业动态</category>
+  </item>
+  <item>
+    <title>摘要: 【人工智能编程初创公司Cursor洽谈融资20亿美元 估值超过500亿美元】财联社4月18日电，一位知情人士透露，人工智能编程初创公司Cursor正在与投资者进行深入洽谈，计划在新一轮融资中融资约20亿美元，对公司的估值超过500亿美元，不包括本轮融资资金。知情人士透露，现有投资方Andreessen Horowitz将共同领投本轮融资。两位...</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>行业动态</category>
+  </item>
+  <item>
+    <title>来源: 财联社</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>工具发布</category>
+  </item>
+  <item>
+    <title>2. 标题：DeepSeek被曝启动首次外部融资，目标估值超100亿美元</title>
+    <link></link>
+    <description></description>
+    <pubDate>2026-04-20</pubDate>
+    <category>行业动态</category>
+  </item>
+</channel>
 </rss>
